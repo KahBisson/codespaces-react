@@ -1,31 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b8d4ff;
+}
+
+.login-box {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.login-box h1 {
+  margin-bottom: 30px;
+  color: #292cc7;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #1fb8ff;
+  outline: none;
+}
+
+.btn-acessar {
+  width: 100%;
+  padding: 12px;
+  background-color: #00aeff;
   color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-acessar:hover {
+  background-color: #1d7bdf;
 }
 
-.heart {
-  color: #ff0000;
+.mensagem {
+  margin-top: 20px;
+  font-weight: 500;
+  min-height: 24px;
 }
 
-.small {
-  font-size: 0.75rem;
-}
+.sucesso { color: #28a745; }
+.erro { color: #dc3545; }
