@@ -16,8 +16,7 @@ export default function Login() {
       navigate('/principal'); 
     } catch (error) {
 
-      alert("Erro ao entrar: E-mail ou senha incorreta"
-        + error.message);
+      alert("Erro ao entrar: E-mail ou senha incorreta");
     }
   };
 
